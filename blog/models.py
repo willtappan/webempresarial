@@ -8,7 +8,6 @@ class Category(models.Model):
     created = models.DateTimeField(auto_now_add= True, verbose_name="Fecha de Creación")
     updated  = models.DateTimeField(auto_now=True, verbose_name="Fecha de edicion")
 
-     
     class Meta:
          verbose_name = "categoria "
          verbose_name_plural = "categorias"
