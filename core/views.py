@@ -40,5 +40,3 @@ def services(request):
     return render(request, "core/services.html")
 def store(request):
     return render(request, "core/store.html")
-def contact(request):
-    return render(request, "core/contact.html")
